@@ -18,24 +18,49 @@ html {
 }
 
 body {
-background: url(your background url.jpg);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 100% 100%;
-font: 14px/1.4 $courier;
-color: #001a33;
+	background-image: url("http://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-ripples-in-gold-texture.jpg");
+  font: 18px/1.4 $helvetica;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #c0b283;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+	border: 1px solid #dcd0c0;
+}
+
+th {
+	height: 30px;
+	color: #dcd0c0;
+}
+
+th, td {
+	padding: 8px;
+	border: 1px solid #dcd0c0;
+	padding: 15px;
+    	text-align: left;
+
+
+}
+
 
 .container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  border-radius: 15px; 	
+  background-color: rgba(55, 55, 55, 0.8);	
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $helvetica;
+  color: #ffffff;
   font-weight: bold;
 
   line-height: 1.7;
@@ -50,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: #dcd0c0;
   }
 }
 
@@ -64,7 +89,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #dcd0c0;
 }
 
 p {
@@ -72,11 +97,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #dcd0c0;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #0033cc;
   }
 }
 
@@ -120,7 +145,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #ffffff;
 }
 
 // Specify the color of the selection
@@ -129,8 +154,8 @@ img {
   background: $lightGray;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: #000000;
+  background: #000000;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -195,7 +220,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #000000;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -205,7 +230,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #dcd0c0;
   font-size: 16px;
 
   @include mobile {
@@ -228,14 +253,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #dcd0c0;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: #dcd0c0;
     }
   }
 }
@@ -259,7 +284,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: #ff0000;
     font-size: 22px;
     font-style: italic;
   }
@@ -278,7 +303,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: rgba(55, 55, 55, 0.8);
 }
 
 footer {
