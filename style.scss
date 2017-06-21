@@ -18,9 +18,12 @@ html {
 }
 
 body {
-	background: #ff00ff;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+background: url(your background url.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+font: 14px/1.4 $courier;
+color: #001a33;
 }
 
 .container {
